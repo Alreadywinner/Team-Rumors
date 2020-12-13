@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Team-Rumors/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/Team-Rumors/static/js/main.0d82d596.chunk.js",
+    "main.js.map": "/Team-Rumors/static/js/main.0d82d596.chunk.js.map",
+    "runtime-main.js": "/Team-Rumors/static/js/runtime-main.6f577d94.js",
+    "runtime-main.js.map": "/Team-Rumors/static/js/runtime-main.6f577d94.js.map",
+    "static/js/2.d1795aff.chunk.js": "/Team-Rumors/static/js/2.d1795aff.chunk.js",
+    "static/js/2.d1795aff.chunk.js.map": "/Team-Rumors/static/js/2.d1795aff.chunk.js.map",
+    "static/js/3.4c46b7ef.chunk.js": "/Team-Rumors/static/js/3.4c46b7ef.chunk.js",
+    "static/js/3.4c46b7ef.chunk.js.map": "/Team-Rumors/static/js/3.4c46b7ef.chunk.js.map",
+    "index.html": "/Team-Rumors/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/Team-Rumors/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.d1795aff.chunk.js.LICENSE.txt": "/Team-Rumors/static/js/2.d1795aff.chunk.js.LICENSE.txt",
+    "static/media/svg-1.5d4add88.svg": "/Team-Rumors/static/media/svg-1.5d4add88.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6f577d94.js",
+    "static/js/2.d1795aff.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.0d82d596.chunk.js"
+  ]
+}
