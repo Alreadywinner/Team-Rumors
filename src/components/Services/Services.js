@@ -11,26 +11,28 @@ import {
     ServicesCardCost,
     ServicesCardLength,
     ServicesCardFeatures,
-    ServicesCardFeature
+    ServicesCardFeature,
+    SeeAllButton,
+    ServicesCardImage
 }from './styledServices';
-// import { AiFillThunderbolt } from 'react-icons/ai';
-import { GiCrystalBars } from 'react-icons/gi';
-import { GiCutDiamond, GiRock } from 'react-icons/gi';
-// import { GiFloatingCrystal } from 'react-icons/gi';
+import AppDev from '../../images/AppDevelopment.svg';
+import Cloud from '../../images/Cloud.svg';
+import DigitalMarketing from '../../images/DigitalMarketing.svg';
 import { Button } from '../styledNavbar';
 
 const Services = () => {
     return(
         <ServicesSection>
         <ServicesWrapper>
-          <ServicesHeading>Our Services</ServicesHeading>
+          <ServicesHeading>Services</ServicesHeading>
           <ServicesContainer>
-            <ServicesCard to='/sign-up'>
+            
+          <ServicesCard>
               <ServicesCardInfo>
                 <ServicesCardIcon>
-                  <GiRock />
+                  <ServicesCardImage src = {DigitalMarketing} alt="services"/>
                 </ServicesCardIcon>
-                <ServicesCardPlan>Hellos Pack</ServicesCardPlan>
+                <ServicesCardPlan>Digital Marketing</ServicesCardPlan>
                 <ServicesCardCost>$99.99</ServicesCardCost>
                 <ServicesCardLength>per month</ServicesCardLength>
                 <ServicesCardFeatures>
@@ -41,12 +43,13 @@ const Services = () => {
                 <Button primary>Choose Plan</Button>
               </ServicesCardInfo>
             </ServicesCard>
-            <ServicesCard to='/sign-up'>
+            
+            <ServicesCard>
               <ServicesCardInfo>
                 <ServicesCardIcon>
-                  <GiCrystalBars />
+                  <ServicesCardImage src = {AppDev} alt = "App-Dev"/>
                 </ServicesCardIcon>
-                <ServicesCardPlan>Gold Rush</ServicesCardPlan>
+                <ServicesCardPlan>App Development</ServicesCardPlan>
                 <ServicesCardCost>$299.99</ServicesCardCost>
                 <ServicesCardLength>per month</ServicesCardLength>
                 <ServicesCardFeatures>
@@ -57,12 +60,14 @@ const Services = () => {
                 <Button primary>Choose Plan</Button>
               </ServicesCardInfo>
             </ServicesCard>
-            <ServicesCard to='/sign-up'>
+
+            
+            <ServicesCard>
               <ServicesCardInfo>
                 <ServicesCardIcon>
-                  <GiCutDiamond />
+                  <ServicesCardImage src = {Cloud} alt="Cloud"/>
                 </ServicesCardIcon>
-                <ServicesCardPlan>Diamond Kings</ServicesCardPlan>
+                <ServicesCardPlan>Cloud Services</ServicesCardPlan>
                 <ServicesCardCost>$999.99</ServicesCardCost>
                 <ServicesCardLength>per month</ServicesCardLength>
                 <ServicesCardFeatures>
@@ -73,7 +78,13 @@ const Services = () => {
                 <Button primary>Choose Plan</Button>
               </ServicesCardInfo>
             </ServicesCard>
-          </ServicesContainer>
+
+          </ServicesContainer> 
+        
+        <ServicesContainer>
+        <SeeAllButton to = "/allServices">See All</SeeAllButton>
+        </ServicesContainer>
+        
         </ServicesWrapper>
       </ServicesSection>
     );

@@ -26,7 +26,7 @@ const Footer = () => {
         <FooterContainer>
             <FooterSubscription>
                 <FooterSubHeading>
-                    Join our exclusive membership to recieve the latest new and trends
+                    Join our exclusive membership to recieve the latest news and trends
                 </FooterSubHeading>
                 <FooterSubText>
                     You can unsubscribe at any time.

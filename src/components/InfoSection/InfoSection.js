@@ -26,7 +26,8 @@ const InfoSection = ({
     topLine,
     start,
     img,
-    alt }) => {    
+    alt,
+    pageLink }) => {    
     return(
         <>
         <InfoSec lightBg={lightBg}>
@@ -47,7 +48,7 @@ const InfoSection = ({
                                 {description}
                             </Subtitle>
                             
-                            <Link to = "/sign-up">
+                            <Link to = {pageLink}>
                              <Button big fontBig primary={primary}>
                                 {buttonLabel}
                              </Button>

@@ -66,15 +66,15 @@ const NavBar = () => {
 
                         <NavItemBtn>
                             {button ? (
-                                <NavBtnLink to="/sign-up">
+                                <NavBtnLink to="/getStarted">
                                     <Button primary>
-                                        SIGN UP
+                                        Get Started
                                     </Button>
                                 </NavBtnLink>
                             ):(
-                                <NavBtnLink to="/sign-up">
+                                <NavBtnLink to="/getStarted">
                                     <Button fontBig primary>
-                                        SIGN UP
+                                    Get Started
                                     </Button>
                                 </NavBtnLink>
                             )}

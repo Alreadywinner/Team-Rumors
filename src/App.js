@@ -6,6 +6,8 @@ import Home from './components/Home/Home';
 import Footer from './components/Footer/Footer';
 import Services from './components/Services/Services';
 import ScrollToTop from './components/ScrollToTop';
+import SeeAll from './components/Services/SeeAll';
+import Products from './components/Products/Products';
 function App() {
   return (
     <Router>
@@ -14,7 +16,9 @@ function App() {
         <NavBar />
         <Switch>
           <Route path = "/" exact component = {Home} />
-          <Route path='/services' component={Services} />
+          <Route path = '/services' component={Services} />
+          <Route path = "/allServices" component={SeeAll} />
+          <Route path = "/products" component={Products} />
         </Switch>
         <Footer />
     </Router>
